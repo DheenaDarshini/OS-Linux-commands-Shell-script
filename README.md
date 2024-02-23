@@ -52,13 +52,16 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+![Screenshot 2024-02-23 152910](https://github.com/DheenaDarshini/OS-Linux-commands-Shell-script/assets/139415929/5de11d7a-ab29-4dd2-ad8a-ce5b5cf75a5d)
+
 comm file1 file2
  ## OUTPUT
+ ![Screenshot 2024-02-23 153007](https://github.com/DheenaDarshini/OS-Linux-commands-Shell-script/assets/139415929/104921db-a892-492d-8823-aab2952ca8e0)
 
- 
+
 diff file1 file2
 ## OUTPUT
+![Screenshot 2024-02-23 153040](https://github.com/DheenaDarshini/OS-Linux-commands-Shell-script/assets/139415929/e00b98aa-0c20-4d2f-8ff6-102817fb43b9)
 
 
 #Filters
@@ -84,15 +87,18 @@ cut -c1-3 file11
 ## OUTPUT
 
 
+![Screenshot 2024-02-23 153214](https://github.com/DheenaDarshini/OS-Linux-commands-Shell-script/assets/139415929/721f3917-26fa-4375-8eb5-fb0d65fbec5d)
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+![Screenshot 2024-02-23 153230](https://github.com/DheenaDarshini/OS-Linux-commands-Shell-script/assets/139415929/71ead726-77ac-478f-a4aa-41340417e957)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![Screenshot 2024-02-23 153240](https://github.com/DheenaDarshini/OS-Linux-commands-Shell-script/assets/139415929/f551db73-a173-4794-a395-2ebbd306c3ae)
 
 
 cat < newfile 
@@ -108,29 +114,34 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+![Screenshot 2024-02-23 153257](https://github.com/DheenaDarshini/OS-Linux-commands-Shell-script/assets/139415929/4cb0e6a8-789e-4e5d-9d61-517465ac3c82)
 
 
 grep hello newfile 
 ## OUTPUT
 
 
+![Screenshot 2024-02-23 153309](https://github.com/DheenaDarshini/OS-Linux-commands-Shell-script/assets/139415929/3ddfe839-ffb4-4ca4-9160-af1b7d094dcf)
 
 
 grep -v hello newfile 
 ## OUTPUT
 
+![Screenshot 2024-02-23 153324](https://github.com/DheenaDarshini/OS-Linux-commands-Shell-script/assets/139415929/25354369-7d5d-4b15-ae3c-f5c8bb00268d)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
 
+![Screenshot 2024-02-23 153345](https://github.com/DheenaDarshini/OS-Linux-commands-Shell-script/assets/139415929/69fbb459-0337-4144-8f4a-73a7337cee7e)
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
 
+ ![Screenshot 2024-02-23 153357](https://github.com/DheenaDarshini/OS-Linux-commands-Shell-script/assets/139415929/be0be825-434c-4a21-9029-90ccee221df5)
 
 
 grep -R ubuntu /etc
